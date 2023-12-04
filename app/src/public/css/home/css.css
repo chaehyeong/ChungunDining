@@ -1,0 +1,76 @@
+/*전체 세팅*/
+
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+}
+#settings{
+    user-select: none;
+    font-family: 'IM_Hyemin-Bold';
+    font-weight: 900;
+}
+footer{
+    font-size: x-small;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+footer > div{
+    width: 100vw;
+    height: 20px;
+}
+
+/*index*/
+header{
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+#main{
+    z-index: 1;
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/image/main.jpg');
+    background-size: cover;
+}
+
+/*맛집 리스트*/
+
+#list > div{
+    margin-top: 50px;
+}
+#list > div > div{
+    width: 60%;
+    height: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.card{
+    margin: 2%;
+}
+
+/*로그인*/
+
+#login{
+    width: 30vw;
+    height: 50vh;
+    transform: translate(35vw, 10vh);
+}
+.form-floating{
+    margin: 10px 0;
+}
+
+/*맛집 추가 요청*/
+
+.row.g-5{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+.col-md-7.col-lg-8{
+    margin: 0 auto;
+    margin-top: 7vh;
+}
